@@ -15,4 +15,4 @@ Rails.application.config.assets.paths << Rails.root.join('vendor/jquery-easing')
 # Precompile additional assets.
 # application.js, application.css, and all non-JS/CSS in the app/assets
 # folder are already added.
-Rails.application.config.assets.precompile += %w( freelancer.min.js freelancer.min.css jqBootstrapValidation.js jquery.easing.min.js bootstrap.bundle.min.js jquery.min.js)
+Rails.application.config.assets.precompile += %w( freelancer.min.js freelancer.min.css jqBootstrapValidation.js jquery.easing.min.js bootstrap.bundle.min.js jquery.min.js bootstrap.js bootstrap.min.js bootstrap.bundle.js)
